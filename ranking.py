@@ -10,7 +10,7 @@ rank = 0
 whole_content = ''
 flight_type = ''
 html_output = '<p>Stand: ' + today.strftime("%d.%m.%Y") + '<table><tr><td><b>Rang</td><td><b>Pilot</td>'
-html_output += '<td><b>Länge</td><td><b>Punkte</td><td><b>Datum</td><td><b>Aufgabe</td><td><b>Link Xcontest</td></tr>'
+html_output += '<td><b>Length</td><td><b>Points</td><td><b>Date</td><td><b>Task</td><td><b>Link Xcontest</td></tr>'
 # function to get sums out of the status
 def get_value(html_string, tag_name, tag_end):
     if html_string.find(tag_name) == -1:
