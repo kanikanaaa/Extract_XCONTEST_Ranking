@@ -6,21 +6,22 @@
   padding: 30px;
 }</style>
 <body>
-<h1>Xcontest-Rankings auf DCZO-Website aktualisieren</h1>
-<h3>Weiteste Flüge ab Scheidegg</h3>
-<a>1. Die folgende Xcontest-Seite besuchen. Xcontest-Login erforderlich: </a>
-<a href="https://www.xcontest.org/2023/world/en/flights-search/?filter%5Bpoint%5D=8.94307+47.3041&filter%5Bradius%5D=1000&filter%5Bmode%5D=START&filter%5Bdate_mode%5D=dmy&filter%5Bdate%5D=2024&filter%5Bvalue_mode%5D=dst&filter%5Bmin_value_dst%5D=&filter%5Bcatg%5D=FAI3&filter%5Broute_types%5D=&filter%5Bavg%5D=&filter%5Bpilot%5D=&list%5Bsort%5D=pts&list%5Bdir%5D=down" target="_blank">
-Link zu den Flügen ab der Scheidegg in 2024</a><br>
-<a>2. Seitenquelltext anzeigen (rechte Maustaste -> view page source). Diesen als html mit dem filenamen 'ranking.html' abspeichern.</a><br>
-<a>3. Python-Script 'ranking' im selben Verzeichnis starten. Das fertige html in die DCZO-Webseite kopieren, siehe Schreenshot</a>
+<h1>Update Xcontest Rankings on DCZO website</h1>
+<h3>Longest flights from Scheidegg</h3>
+<a>1. Visit the following Xcontest page. Xcontest login required: </a>
+<a href="https://www.xcontest.org/2023/world/en/flights-search/?filter%5Bpoint%5D=139.677377+36.360857&filter%5Bradius%5D=5000&filter%5Bmode%5D=START&filter%5Bdate_mode%5D=dmy&filter%5Bdate%5D=2024&filter%5Bvalue_mode%5D=dst&filter%5Bmin_value_dst%5D=&filter%5Bcatg%5D=&filter%5Broute_types%5D=&filter%5Bavg%5D=&filter%5Bpilot%5D=&list%5Bsort%5D=pts&list%5Bdir%5D=down" target="_blank">
+Link to the flights from Scheidegg in 2024</a><br>
+<a>2. Show page source (right click -> view page source). Save this as html with the filename 'ranking.html'.</a><br>
+<a>3. Start the Python script 'ranking' in the same directory. Copy the finished HTML into the DCZO website, see screenshot/</a>
 <br>
-<h3>Clubranking</h3>
-<a>1. Seitenquelltext der folgenden Seite aufrufen (kein Login erforderlich): </a><a href="https://www.xcontest.org/switzerland/en/ranking-pg-club:1383" target="_blank">Link Clubranking </a><br>
-<a>2. Seitenquelltext als html-file mit dem namen 'club_ranking.html' ablegen.</a><br>
-<a>3. Python-Script 'club_ranking' im selben Verzeichnis starten. -> das fertige html in die DCZO-Webseite kopieren.</a><br><br>
+<h3>Japan ranking - open</h3>
+<a>1. View the page source of the following page (no login required): </a>
+  <a href="https://www.xcontest.org/xjapan/ranking-open/" target="_blank">Link Japan Ranking-open </a><br>
+<a>2. Save page source as html file with the name 'national_ranking.html'.</a><br>
+<a>3. Start Python script 'club_ranking' in the same directory. -> copy the finished html into the DCZO website.</a><br><br>
 <img src="insert_html1.jpg" alt="insert into website">
 <img src="insert_html2.jpg" alt="insert into website"><br>
-<a href="https://github.com/tomikaso/Extract_XCONTEST_Ranking" target="_blank">Codebase in Github</a>
+<a href="https://github.com/kanikanaaa/Extract_XCONTEST_Ranking" target="_blank">Codebase in Github</a>
 
 </body>
 </html>
